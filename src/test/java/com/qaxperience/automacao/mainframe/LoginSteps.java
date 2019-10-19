@@ -16,7 +16,7 @@ public class LoginSteps {
     private Session session;
     private LoginScreen loginScreen;
 
-    @Dado("Eu começo uma nova sessão")
+    @Dado("Que eu começo uma nova sessão")
     public void i_start_a_new_emulator_session() throws Throwable {
 
         session = new Session("test");
